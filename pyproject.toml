@@ -1,0 +1,10 @@
+[tool.black]
+line-length = 80
+
+[tool.isort]
+skip_gitignore = true
+profile = "black"
+line_length = 80
+
+[tool.pytest.ini_options]
+addopts = "--cov=coingecko --no-cov-on-fail"
